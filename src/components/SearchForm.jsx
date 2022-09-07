@@ -14,6 +14,12 @@ const SearchForm = (props) => {
         else if (selectedResource === "planets") {
             navigate(`/planets/${numberId}`)
         }
+        clearForm();
+    }
+    
+    const clearForm = () => {
+        setNumberId("");
+        setSelectedResource("");
     }
 
     return (
