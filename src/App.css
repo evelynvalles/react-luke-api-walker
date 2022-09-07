@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.results img {
+  width: 35rem;
+  height: 25rem;
+}
+
+form {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form label, form input, form select, form button {
+  margin-right: 1rem;
+}
+
+form select {
+  padding: .5rem;
+  border: none;
+  border-radius: .5rem;
+  background-color: lightgray;
+}
+
+form option {
+  background-color: white;
+}
+
+form input {
+  padding: .5rem;
+  border: none;
+  border-radius: .5rem;
+  background-color: lightgray;
+  width: 3rem;
+}
+
+form button {
+  background-color: blue;
+  color: white;
+  padding: .5rem;
+  border: none;
+  border-radius: .5rem;
+  width: 3.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div .results {
+  margin-top: 5rem;
+}
+
+div .results span {
+  font-weight: bold;
+}
